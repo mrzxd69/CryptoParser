@@ -9,6 +9,8 @@ import (
 
 const countCurrency int = 100 // кол-во криптовалют. От 1 до 100
 
+
+
 func GetPage(url string) {
 	c := colly.NewCollector()
 
